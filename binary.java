@@ -48,3 +48,29 @@ public class binary {
     
     
 }
+
+
+/*
+static void yo(teque t) throws FileNotFoundException {
+        try (Scanner s = new Scanner(System.in)) {
+            while (s.hasNextLine()) {
+                String temp[] = s.nextLine().split(" ");
+                if (temp.length != 1) {
+                    int x = Integer.parseInt(temp[1]);
+                    switch (temp[0]) {
+                        case "push_front" ->
+                            t.push_front(new Node(x));
+                        case "push_back" ->
+                            t.push_back(new Node(x));
+                        case "push_middle" ->
+                            t.push_middle(new Node(x));
+                        default ->
+                            System.out.println(t.get(x));
+                    }
+                }
+                
+            }
+        }
+    } 
+        
+    */
